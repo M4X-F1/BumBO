@@ -1,0 +1,35 @@
+h1 {color:rgb(0, 255, 85);}
+h2 {color:rgb(255, 255, 255);}
+h3 {color:rgb(255, 255, 255);}
+h6 {color:rgb(255, 255, 255);}
+.Title {
+    text-align: center;
+    font-size: 50px;
+}
+#Text {
+    text-align: left;
+    padding: 100px;
+}
+#menu {
+    text-align: center;
+}
+button{
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0 10px #666;
+    background-color: tan;
+    font-size: 30px;
+}
+button:active{
+    background-color: lightskyblue;
+    box-shadow: 0 10px #666;
+    transform: translateY(4px);
+    font-size: 30px;
+}
+body {
+    background: linear-gradient(108deg, navy 0%, rgba(13,105,222,1) 35%, rgba(0,212,255,1) 100%);
+    margin:auto;
+}
+#link {
+    text-align: center;
+}

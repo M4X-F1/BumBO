@@ -1,0 +1,33 @@
+#Title {
+    font-size: 40px;
+}
+#Subtitle {
+    text-align: center;
+}
+body {
+    background: linear-gradient(108deg, navy 0%, rgba(13,105,222,1) 35%, rgba(0,212,255,1) 100%);
+}
+button{
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 10px #666;
+    background-color: tan;
+}
+h1 {color:rgb(210, 180, 140);}
+h2 {color:rgb(255, 255, 255);}
+h3 {color:rgb(224, 101, 0);}
+img{
+    width: 600px; 
+    height: 400px;
+}
+#scopri{
+    margin: auto;
+}
+.cicli {
+    margin-left: 227px;
+}
+button:active{
+    background-color: lightskyblue;
+    box-shadow: 0 10px #666;
+    transform: translateY(4px);
+}

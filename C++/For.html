@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Il Ciclo For</title>
+        <link href="Stili/Stili For.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="Title">Il Ciclo For</h1>
+        <br>
+        <br>
+        <div id="Text">
+        <font size="6">
+        <h3 class="Meaning">Il ciclo For (o ciclo a conteggio) ha come scopo quello di contare la sequenza delle ripetizioni entro un certo numero di cicli stabilito in partenza.
+        <h3 class="Meaning">Il ciclo For viene realizzato con un contatore che, ogni volta che viene eseguito il corpo del ciclo, si aggiorna automaticamente di una certa quantità costante in più o in meno chiamata "step" o "passo di conteggio" o "passo del contatore", che ha valore iniziale (+ 1) di default fino a quando si raggiunge il valore finale (fine).
+        <h3 class="Meaning">Il valore iniziale e il valore finale sono gli "estremi del ciclo", e devono essere diversi tra loro, perché se sono uguali il ciclo viene ripetuto una sola volta.</h3>
+        <h3 class="Meaning">Il ciclo For funziona secondo questo schema:</h3>
+        <ol>
+            <h3><li><h3>inizializzazione della variabile di conteggio e del contatore;</h3></li></h3>
+            <br>
+            <h3><li><h3>esecuzione del corpo del ciclo:</h3></li></h3>
+            <br>
+               <ol type="A">
+                <h3><li><h3>verifica delle condizioni di ingresso (i = 0), delle condizioni di permanenza (numero delle ripetizioni : i < n), delle condizioni di aggiornamento dell’incremento del contatore (i ++ / i - -) secondo il passo di conteggio;</h3></li></h3>
+                <br>
+                <h3><li><h3>Al verificarsi delle condizioni di permanenza (Vero) viene eseguito il blocco delle istruzioni, poi l’incremento del contatore del passo stabilito e la ripetizione del ciclo fino a quando si arriva al valore finale di conteggio stabilito in partenza;</h3></li></h3>
+                <br>
+                </ol>
+            <h3><li><h3>Il ciclo va avanti fino al verificarsi delle condizioni di permanenza (Vero); quando le condizioni di permanenza cessano (Falso) si esce dal ciclo.</h3></li></h3>
+         </ol>
+        <br>
+        <h4 class="Example">Esempio di ciclo For in C++: Chiedi all'utente di inserire un numero e stampa la sua tabellina da 1 a 10 utilizzando un ciclo for - Codice</h4>
+        <div id="Code">
+            int main() {
+                <br>
+                &nbsp;&nbsp;&nbsp;int num = 0;
+                <br>
+                &nbsp;&nbsp;&nbsp;int num_tab = 0;
+                <br>
+                &nbsp;&nbsp;&nbsp;int i = 0;
+                <br>
+                &nbsp;&nbsp;&nbsp;cout<<"Inserire un numero e stampero' la tabellina."<<"endl;
+                <br>
+                &nbsp;&nbsp;&nbsp;cout<<"\n";
+                <br>
+                &nbsp;&nbsp;&nbsp;cout<<"Inserire un numero."<<"endl;
+                <br>
+                &nbsp;&nbsp;&nbsp;cin>>num;
+                <br>
+                &nbsp;&nbsp;&nbsp;cout<<"Fino a che multiplo vuole arrivare?"<<"endl;
+                <br>
+                &nbsp;&nbsp;&nbsp;cin>>num_tab;
+                <br>
+                &nbsp;&nbsp;&nbsp;cout<<"\n";
+                <br>
+                &nbsp;&nbsp;&nbsp;for(i=0; i<=num_tab; i++) {
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout<<"num<<" * "<<"i<< " = "<<"num*i<<"endl;
+                <br>
+                &nbsp;&nbsp;&nbsp;}
+                <br>
+                &nbsp;&nbsp;&nbsp;return 0;
+                <br>
+                }
+            </h3>
+        </div>
+        <h4 class="Example">Esempio di ciclo For in C++: Chiedi all'utente di inserire un numero e stampa la sua tabellina da 1 a 10 utilizzando un ciclo for - Codice di programmazione</h4>
+        <div align="Center">
+            <img src="Code_For.jpg">
+        </div>
+        <h4 class="Example">Esempio di ciclo For in C++: Chiedi all'utente di inserire un numero e stampa la sua tabellina da 1 a 10 utilizzando un ciclo for - Immagine a video</h4>
+        <div align="Center">
+            <img src="Code_For_code.jpg">
+        </div>
+        </font>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="link">
+            <a href="Cicli.html"><button>Link i cicli</button></a>
+            <br>
+            <br>
+            <a href="Index.html"><button>Link Homepage</button></a>
+        </div>
+        <br>
+        <div align="right">
+            <h2>Realizzato da Lorenzo Cappoli e Daniel Casprini</h2>
+        </div>
+    </body>
+</html>
